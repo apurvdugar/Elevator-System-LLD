@@ -5,4 +5,8 @@ public class FloorSensor {
     public int getCurrentFloor() {
         return currentFloor;
     }
+
+    public void setCurrentFloor(int floor) {
+        this.currentFloor = floor;
+    }
 }
